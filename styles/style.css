@@ -123,3 +123,18 @@ h6 {
 #headers {
   display: flex;
 }
+
+#blog-entry {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tab { 
+  text-indent:40px;
+  margin: 15px;
+}
+
+#not-chocolate-pizza {
+  margin-bottom: 10px;
+}
