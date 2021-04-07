@@ -136,5 +136,32 @@ h6 {
 }
 
 #not-chocolate-pizza {
+  display: flex;
   margin-bottom: 10px;
 }
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+#ingredients {
+  position:relative;
+  text-align: center;
+}
+
+#left {
+  position: absolute;
+  left: 310px;
+  top: 60px;
+}
+
+#right {
+  position: absolute;
+  right: 310px;
+  top: 60px;
+  
+}
+
+
+
