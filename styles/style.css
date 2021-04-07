@@ -119,3 +119,19 @@ footer {
     flex-direction: column;
     font-size: 10px;
   }
+
+#logos {
+  display: flex;
+  height: 30px;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+#logos img {
+  display: inline-block;
+  margin: 1px;
+}
+  
+#pinterest {
+  padding-right: 10px;
+}
