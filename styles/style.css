@@ -34,14 +34,14 @@ header {
 }
   
 footer {
-    position: relative;
     width: 100%;
     bottom: 0;
     height: var(--footer-height);
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
 }
   
 #fork-knife {
@@ -164,7 +164,17 @@ button {
   margin-top: 20px;
 }
 
-#copy-gutter-right {
+#center {
+  position: absolute;
+  left: 400px;
 }
 
+#small {
+  position: absolute;
+  top: 1680px;
+  left: 620px;
+  width: 30px;
+  height: 30px;
+
+}
 
